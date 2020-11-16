@@ -1,0 +1,168 @@
+/* general~ */
+
+html {
+  height: 100%;
+}
+body{
+  background-color: #000000;
+}
+
+.bolder{
+  font-weight: bolder;
+}
+
+#cover{
+  height: 100%;
+  background-image: url("src/cover.jpg");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 576px) {
+  #title{
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+
+*{
+  font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif; 
+}
+
+
+.width100p{
+  width:100%;
+}
+
+.height100p{
+  height:100%;
+}
+
+.height100vh{
+  height:100vh;
+}
+
+.minHeight100p{
+  min-height:100%;  
+}
+
+.minHeight100vh{
+  min-height:100vh;
+}
+
+.centerVertically{
+    /* height:100%; */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.bg-orange{
+  background-color: #f7971d!important;
+}
+.bg-light-orange{
+  background-color: #ffc99d!important;
+}
+.bg-light-grey{
+  background-color: #5e5c5c!important;
+}
+.bg-grey{
+  background-color: #525252!important;
+}
+.bg-dark{
+  background-color: #414141!important;
+}
+.bg-darker{
+  background-color: #313131!important;
+}
+.bg-black{
+  background-color: #000000!important;
+}
+.font-white{
+  color: #ffffff!important;
+}
+.font-black{
+  color: #000000!important;
+}
+.font-dark-grey{
+  color: #6e6e6e!important;
+}
+.font-grey{
+  color: #858c89!important;
+}
+.font-orange-bright{
+  color: #FF580F!important;
+}
+.font-orange{
+  color: #f7971d!important;
+}
+
+.font-break-all{
+  word-break: break-all;
+}
+
+.hwAuto{
+  /* object-fit: contain; */
+  object-fit: cover;
+}
+
+
+/* ~general */
+
+table, tr, td {
+  border-bottom-style:solid;border-width:1px;border-color:#7B7B7B;text-align: center;
+
+}
+
+
+
+
+/* button~ */
+
+#newMissionBtn{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+button{
+  border-radius: 0px!important;
+}
+.btn:focus,input[type='text'],input[type='email'],input[type='password'],select,.form-control{
+  box-shadow:none!important;  
+
+}
+
+.btn-grey{
+  color: #ffffff;
+  background-color: #FF7E26;
+  border-color: #FF7E26;
+  border-radius: 0;
+}
+
+.btn-outline-orange{
+  color: #FF7E26;
+  border-color: #FF7E26;
+  border-radius: 0;
+}
+.btn-outline-orange:hover {
+  color: #FF7E26;
+  border-color: #FF7E26;
+}
+.btn-outline-orange:active {
+    color: #ffffff;
+    background-color: rgb(218, 79, 20);
+    border-color: rgb(218, 79, 20);
+}
+
+
+
+/* ~button */
+
+
+
+
